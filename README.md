@@ -146,6 +146,15 @@ npm run build
 npm run preview
 ```
 
+### 🌐 GitHub Pages Deployment
+
+The repository includes a ready-to-use GitHub Actions workflow (`.github/workflows/deploy.yml`):
+
+1. Push your code to GitHub (`main` or `master` branch).
+2. On GitHub, navigate to **Settings** → **Pages**.
+3. Under **Build and deployment** → **Source**, select **GitHub Actions**.
+4. The workflow will automatically run tests, build the project, and deploy the site.
+
 ---
 
 ## 📄 License
